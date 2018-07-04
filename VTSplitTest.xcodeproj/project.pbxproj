@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5244761320ECC886001AD86E /* VTSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5244761220ECC87D001AD86E /* VTSplit.framework */; };
+		5244761420ECC886001AD86E /* VTSplit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5244761220ECC87D001AD86E /* VTSplit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52B9903720EB13B50078E3E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9903620EB13B50078E3E2 /* AppDelegate.m */; };
 		52B9903A20EB13B50078E3E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9903920EB13B50078E3E2 /* ViewController.m */; };
 		52B9903D20EB13B50078E3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B9903B20EB13B50078E3E2 /* Main.storyboard */; };
 		52B9903F20EB13B60078E3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B9903E20EB13B60078E3E2 /* Assets.xcassets */; };
 		52B9904220EB13B60078E3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B9904020EB13B60078E3E2 /* LaunchScreen.storyboard */; };
 		52B9904520EB13B60078E3E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9904420EB13B60078E3E2 /* main.m */; };
-		52B9905120EB13D30078E3E2 /* VTSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9905020EB13CD0078E3E2 /* VTSplit.framework */; };
-		52B9905220EB13D30078E3E2 /* VTSplit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9905020EB13CD0078E3E2 /* VTSplit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52B9909820EB20CA0078E3E2 /* Master.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B9909720EB20CA0078E3E2 /* Master.storyboard */; };
 		52B9909A20EB20D10078E3E2 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B9909920EB20D10078E3E2 /* Detail.storyboard */; };
 		52B9909D20EB21EF0078E3E2 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9909C20EB21EF0078E3E2 /* MasterViewController.m */; };
@@ -22,16 +22,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52B9904F20EB13CD0078E3E2 /* PBXContainerItemProxy */ = {
+		5244761120ECC87D001AD86E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 52B9904B20EB13CD0078E3E2 /* VTSplit.xcodeproj */;
+			containerPortal = 5244760D20ECC87D001AD86E /* VTSplit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 52B9901E20EB139A0078E3E2;
 			remoteInfo = VTSplit;
 		};
-		52B9905320EB13D30078E3E2 /* PBXContainerItemProxy */ = {
+		5244761520ECC886001AD86E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 52B9904B20EB13CD0078E3E2 /* VTSplit.xcodeproj */;
+			containerPortal = 5244760D20ECC87D001AD86E /* VTSplit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 52B9901D20EB139A0078E3E2;
 			remoteInfo = VTSplit;
@@ -45,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				52B9905220EB13D30078E3E2 /* VTSplit.framework in Embed Frameworks */,
+				5244761420ECC886001AD86E /* VTSplit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5244760D20ECC87D001AD86E /* VTSplit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = VTSplit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		52B9903220EB13B50078E3E2 /* VTSplitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTSplitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B9903520EB13B50078E3E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52B9903620EB13B50078E3E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		52B9904120EB13B60078E3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B9904320EB13B60078E3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B9904420EB13B60078E3E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52B9904B20EB13CD0078E3E2 /* VTSplit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VTSplit.xcodeproj; path = ../../VTSplit/VTSplit.xcodeproj; sourceTree = "<group>"; };
 		52B9909720EB20CA0078E3E2 /* Master.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Master.storyboard; sourceTree = "<group>"; };
 		52B9909920EB20D10078E3E2 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		52B9909B20EB21EF0078E3E2 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
@@ -77,13 +77,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B9905120EB13D30078E3E2 /* VTSplit.framework in Frameworks */,
+				5244761320ECC886001AD86E /* VTSplit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5244760E20ECC87D001AD86E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5244761220ECC87D001AD86E /* VTSplit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		52B9902920EB13B50078E3E2 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +111,7 @@
 		52B9903420EB13B50078E3E2 /* VTSplitTest */ = {
 			isa = PBXGroup;
 			children = (
-				52B9904B20EB13CD0078E3E2 /* VTSplit.xcodeproj */,
+				5244760D20ECC87D001AD86E /* VTSplit.xcodeproj */,
 				52B9903520EB13B50078E3E2 /* AppDelegate.h */,
 				52B9903620EB13B50078E3E2 /* AppDelegate.m */,
 				52B9903820EB13B50078E3E2 /* ViewController.h */,
@@ -123,14 +131,6 @@
 			path = VTSplitTest;
 			sourceTree = "<group>";
 		};
-		52B9904C20EB13CD0078E3E2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				52B9905020EB13CD0078E3E2 /* VTSplit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,7 +146,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				52B9905420EB13D30078E3E2 /* PBXTargetDependency */,
+				5244761620ECC886001AD86E /* PBXTargetDependency */,
 			);
 			name = VTSplitTest;
 			productName = VTSplitTest;
@@ -180,8 +180,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 52B9904C20EB13CD0078E3E2 /* Products */;
-					ProjectRef = 52B9904B20EB13CD0078E3E2 /* VTSplit.xcodeproj */;
+					ProductGroup = 5244760E20ECC87D001AD86E /* Products */;
+					ProjectRef = 5244760D20ECC87D001AD86E /* VTSplit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -192,11 +192,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		52B9905020EB13CD0078E3E2 /* VTSplit.framework */ = {
+		5244761220ECC87D001AD86E /* VTSplit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = VTSplit.framework;
-			remoteRef = 52B9904F20EB13CD0078E3E2 /* PBXContainerItemProxy */;
+			remoteRef = 5244761120ECC87D001AD86E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -232,10 +232,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		52B9905420EB13D30078E3E2 /* PBXTargetDependency */ = {
+		5244761620ECC886001AD86E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VTSplit;
-			targetProxy = 52B9905320EB13D30078E3E2 /* PBXContainerItemProxy */;
+			targetProxy = 5244761520ECC886001AD86E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

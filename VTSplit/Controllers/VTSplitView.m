@@ -8,8 +8,6 @@
 
 #import "VTSplitView.h"
 
-#import "Masonry.h"
-
 @interface VTSplitView()
 
 @end
