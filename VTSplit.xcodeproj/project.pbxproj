@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		52B9902320EB139A0078E3E2 /* VTSplit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B9902120EB139A0078E3E2 /* VTSplit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52B9905920EB147A0078E3E2 /* VTBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B9905720EB147A0078E3E2 /* VTBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52B9905A20EB147A0078E3E2 /* VTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9905820EB147A0078E3E2 /* VTBaseViewController.m */; };
+		52B9905D20EB14AF0078E3E2 /* VTSplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B9905B20EB14AF0078E3E2 /* VTSplitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52B9905E20EB14AF0078E3E2 /* VTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9905C20EB14AF0078E3E2 /* VTSplitViewController.m */; };
+		52B9906120EB17FE0078E3E2 /* VTSplitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B9905F20EB17FE0078E3E2 /* VTSplitView.h */; };
+		52B9906220EB17FE0078E3E2 /* VTSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9906020EB17FE0078E3E2 /* VTSplitView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52B9901E20EB139A0078E3E2 /* VTSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTSplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B9902120EB139A0078E3E2 /* VTSplit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTSplit.h; sourceTree = "<group>"; };
 		52B9902220EB139A0078E3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B9905720EB147A0078E3E2 /* VTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTBaseViewController.h; sourceTree = "<group>"; };
+		52B9905820EB147A0078E3E2 /* VTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTBaseViewController.m; sourceTree = "<group>"; };
+		52B9905B20EB14AF0078E3E2 /* VTSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTSplitViewController.h; sourceTree = "<group>"; };
+		52B9905C20EB14AF0078E3E2 /* VTSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTSplitViewController.m; sourceTree = "<group>"; };
+		52B9905F20EB17FE0078E3E2 /* VTSplitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTSplitView.h; sourceTree = "<group>"; };
+		52B9906020EB17FE0078E3E2 /* VTSplitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTSplitView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +58,24 @@
 		52B9902020EB139A0078E3E2 /* VTSplit */ = {
 			isa = PBXGroup;
 			children = (
+				52B9905620EB14370078E3E2 /* Controllers */,
 				52B9902120EB139A0078E3E2 /* VTSplit.h */,
 				52B9902220EB139A0078E3E2 /* Info.plist */,
 			);
 			path = VTSplit;
+			sourceTree = "<group>";
+		};
+		52B9905620EB14370078E3E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52B9905720EB147A0078E3E2 /* VTBaseViewController.h */,
+				52B9905820EB147A0078E3E2 /* VTBaseViewController.m */,
+				52B9905B20EB14AF0078E3E2 /* VTSplitViewController.h */,
+				52B9905C20EB14AF0078E3E2 /* VTSplitViewController.m */,
+				52B9905F20EB17FE0078E3E2 /* VTSplitView.h */,
+				52B9906020EB17FE0078E3E2 /* VTSplitView.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +85,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B9906120EB17FE0078E3E2 /* VTSplitView.h in Headers */,
+				52B9905D20EB14AF0078E3E2 /* VTSplitViewController.h in Headers */,
+				52B9905920EB147A0078E3E2 /* VTBaseViewController.h in Headers */,
 				52B9902320EB139A0078E3E2 /* VTSplit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B9906220EB17FE0078E3E2 /* VTSplitView.m in Sources */,
+				52B9905A20EB147A0078E3E2 /* VTBaseViewController.m in Sources */,
+				52B9905E20EB14AF0078E3E2 /* VTSplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
