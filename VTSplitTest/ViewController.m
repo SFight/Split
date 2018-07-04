@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import <VTSplit/VTSplit.h>
+
 @interface ViewController ()
 
 @end
@@ -23,6 +25,20 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - SEL
+- (IBAction)onClickButton:(UIButton *)button
+{
+    UIStoryboard *masterStoryboard = [UIStoryboard storyboardWithName:@"Master" bundle:nil];
+    UIStoryboard *detailStoryboard = [UIStoryboard storyboardWithName:@"Detail" bundle:nil];
+    
+    VTSplitViewController *splitVC = [[VTSplitViewController alloc] init];
+    splitVC.masterSize = CGSizeMake(100, [[UIScreen mainScreen] bounds].size.height);
+    splitVC.masterViewController = [masterStoryboard instantiateInitialViewController];
+    splitVC.detailViewController = [detailStoryboard instantiateInitialViewController];
+    
+    [self presentViewController:splitVC animated:YES completion:nil];
 }
 
 
